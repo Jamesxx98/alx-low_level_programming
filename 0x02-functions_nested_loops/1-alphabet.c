@@ -1,18 +1,19 @@
-#include "alx.h"
-
 /*
- * print_alphabet - function that prints the alphabet, lowercase
- * You can only use _putchar twice in your code
- * Return: nothing.
+ * File - alphabet.c
+ */
+
+#include "main.h"
+
+/**
+ * print_alphabet - alphabet in lowercase
  */
 
 void print_alphabet(void)
 {
-int l = 'a';
-while (l <= 'z')
-{
-_putchar(l);
-l += 1;
-}
-_putchar(10);
+char i;
+
+for (i = 'a'; i <= 'z'; i++)
+	_putchar(i);
+
+_putchar('\n');
 }
