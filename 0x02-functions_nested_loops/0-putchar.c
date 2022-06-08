@@ -1,19 +1,32 @@
-#include  "alx.h"
-
 /**
- * main - program that prints alx.
- * Return: int
+ * main - prints _putchar, followed a new line
+ *
+ * Return: Always 0.
  */
 
+#include "main.h"
+
 int main(void)
+
 {
-int n = 0;
-char str_alx[4] = "alx";
-while (n < 4)
-{
-_putchar(str_alx[n]);
-n += 1;
-}
-_putchar('\n');
+
+	_putchar('_');
+
+	_putchar('p');
+
+	_putchar('u');
+
+	_putchar('t');
+
+	_putchar('c');
+
+	_putchar('h');
+
+	_putchar('a');
+
+	_putchar('r');
+
+	_putchar('\n');
+
 	return (0);
 }
